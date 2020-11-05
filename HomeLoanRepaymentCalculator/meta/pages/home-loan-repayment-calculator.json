@@ -1,0 +1,163 @@
+{
+  "access": "Everybody",
+  "components": [
+    {
+      "components": [
+        {
+          "name": "pageTitle",
+          "size": "H1",
+          "text": "Home Loan Repayment Calculator",
+          "type": "heading"
+        },
+        {
+          "name": "loanAmount",
+          "style": {
+            "display": "block"
+          },
+          "text": "Loan Amount ($)",
+          "type": "label"
+        },
+        {
+          "name": "loanAmountInputTxt",
+          "placeholder": "50000",
+          "style": {
+            "display": "block"
+          },
+          "type": "textbox",
+          "value": "${loanAmount}"
+        },
+        {
+          "name": "interestRate",
+          "style": {
+            "display": "block"
+          },
+          "text": "Interest rate (%)",
+          "type": "label"
+        },
+        {
+          "name": "interestRateInputTxt",
+          "placeholder": "2.69",
+          "style": {
+            "display": "block"
+          },
+          "type": "textbox",
+          "value": "${interestRate}"
+        },
+        {
+          "name": "totalLoanTerm",
+          "style": {
+            "display": "block"
+          },
+          "text": "Total loan term (years)",
+          "type": "label"
+        },
+        {
+          "name": "totalLoanTermInputTxt",
+          "placeholder": "30",
+          "style": {
+            "display": "block"
+          },
+          "type": "textbox",
+          "value": "${totalLoanTerm}"
+        },
+        {
+          "events": {
+            "click": [
+              {
+                "name": "Calculate",
+                "parameters": [
+                  {
+                    "name": "initialPrinciple",
+                    "type": "double",
+                    "value": "${loanAmount}"
+                  },
+                  {
+                    "name": "interestRate",
+                    "type": "double",
+                    "value": "${interestRate}"
+                  },
+                  {
+                    "name": "n",
+                    "type": "double",
+                    "value": "${totalLoanTerm}"
+                  }
+                ],
+                "schema": {
+                  "dotnetType": "double",
+                  "type": "number"
+                },
+                "then": [
+                  {
+                    "name": "totalPayment",
+                    "type": "set",
+                    "value": "${result}",
+                    "valueType": "string"
+                  }
+                ],
+                "type": "invoke-method"
+              }
+            ]
+          },
+          "name": "calculateBtn",
+          "style": {
+            "display": "block",
+            "marginTop": "10px"
+          },
+          "text": "Calculate",
+          "type": "button"
+        },
+        {
+          "name": "totalPayment",
+          "style": {
+            "display": "block",
+            "marginTop": "10px"
+          },
+          "text": "Your estimated payments ($)",
+          "type": "label"
+        },
+        {
+          "name": "totalPaymentRdOnly",
+          "placeholder": "",
+          "readOnly": true,
+          "style": {
+            "display": "block"
+          },
+          "type": "textbox",
+          "value": "${totalPayment}"
+        }
+      ],
+      "container": "main",
+      "type": "content"
+    }
+  ],
+  "events": {
+    "load": [
+      {
+        "name": "loanAmount",
+        "type": "set",
+        "value": "\"\"",
+        "valueType": "string"
+      },
+      {
+        "name": "interestRate",
+        "type": "set",
+        "value": "\"\"",
+        "valueType": "string"
+      },
+      {
+        "name": "totalLoanTerm",
+        "type": "set",
+        "value": "\"\"",
+        "valueType": "string"
+      },
+      {
+        "name": "totalPayment",
+        "type": "set",
+        "value": "\"\"",
+        "valueType": "string"
+      }
+    ]
+  },
+  "layout": "Main",
+  "name": "Home Loan Repayment Calculator"
+}
