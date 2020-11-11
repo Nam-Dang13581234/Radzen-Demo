@@ -58,16 +58,15 @@ using Radzen;
 #line hidden
             ));
             __builder.AddAttribute(2, "Found", (Microsoft.AspNetCore.Components.RenderFragment<Microsoft.AspNetCore.Components.RouteData>)((routeData) => (__builder2) => {
-                __builder2.AddMarkupContent(3, "\n            ");
-                __builder2.OpenComponent<Microsoft.AspNetCore.Components.RouteView>(4);
-                __builder2.AddAttribute(5, "RouteData", Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.TypeCheck<Microsoft.AspNetCore.Components.RouteData>(
+                __builder2.OpenComponent<Microsoft.AspNetCore.Components.RouteView>(3);
+                __builder2.AddAttribute(4, "RouteData", Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.TypeCheck<Microsoft.AspNetCore.Components.RouteData>(
 #line 7 "C:\Users\natha\Downloads\Radzen-Demo\HomeLoanRepaymentCalculator\server\App.razor"
                                   routeData
 
 #line default
 #line hidden
                 ));
-                __builder2.AddAttribute(6, "DefaultLayout", Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.TypeCheck<System.Type>(
+                __builder2.AddAttribute(5, "DefaultLayout", Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.TypeCheck<System.Type>(
 #line 7 "C:\Users\natha\Downloads\Radzen-Demo\HomeLoanRepaymentCalculator\server\App.razor"
                                                             typeof(MainLayout)
 
@@ -75,27 +74,23 @@ using Radzen;
 #line hidden
                 ));
                 __builder2.CloseComponent();
-                __builder2.AddMarkupContent(7, "\n    ");
             }
             ));
-            __builder.AddAttribute(8, "NotFound", (Microsoft.AspNetCore.Components.RenderFragment)((__builder2) => {
-                __builder2.AddMarkupContent(9, "\n        ");
-                __builder2.OpenComponent<Microsoft.AspNetCore.Components.LayoutView>(10);
-                __builder2.AddAttribute(11, "Layout", Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.TypeCheck<System.Type>(
+            __builder.AddAttribute(6, "NotFound", (Microsoft.AspNetCore.Components.RenderFragment)((__builder2) => {
+                __builder2.OpenComponent<Microsoft.AspNetCore.Components.LayoutView>(7);
+                __builder2.AddAttribute(8, "Layout", Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.TypeCheck<System.Type>(
 #line 10 "C:\Users\natha\Downloads\Radzen-Demo\HomeLoanRepaymentCalculator\server\App.razor"
                             typeof(MainLayout)
 
 #line default
 #line hidden
                 ));
-                __builder2.AddAttribute(12, "ChildContent", (Microsoft.AspNetCore.Components.RenderFragment)((__builder3) => {
-                    __builder3.AddMarkupContent(13, "\n            ");
-                    __builder3.AddMarkupContent(14, "<h1>Page not found</h1>\n            ");
-                    __builder3.AddMarkupContent(15, "<p>Sorry, but there\'s nothing here!</p>\n        ");
+                __builder2.AddAttribute(9, "ChildContent", (Microsoft.AspNetCore.Components.RenderFragment)((__builder3) => {
+                    __builder3.AddMarkupContent(10, "<h1>Page not found</h1>\n            ");
+                    __builder3.AddMarkupContent(11, "<p>Sorry, but there\'s nothing here!</p>");
                 }
                 ));
                 __builder2.CloseComponent();
-                __builder2.AddMarkupContent(16, "\n    ");
             }
             ));
             __builder.CloseComponent();

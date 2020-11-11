@@ -11,16 +11,16 @@
     </RadzenHeading>
     <RadzenLabel style="display: block" Text="Loan Amount ($)">
     </RadzenLabel>
-    <RadzenTextBox Placeholder="50000" style="display: block" @bind-Value="@loanAmount" Name="LoanAmountInputTxt">
-    </RadzenTextBox>
+    <RadzenNumeric Placeholder="500000" @bind-Value="@loanAmount" Name="LoanAmountInputTxt">
+    </RadzenNumeric>
     <RadzenLabel style="display: block" Text="Interest rate (%)">
     </RadzenLabel>
-    <RadzenTextBox Placeholder="2.69" style="display: block" @bind-Value="@interestRate" Name="InterestRateInputTxt">
-    </RadzenTextBox>
+    <RadzenNumeric Placeholder="2.69" @bind-Value="@interestRate" Name="InterestRateInputTxt">
+    </RadzenNumeric>
     <RadzenLabel style="display: block" Text="Total loan term (years)">
     </RadzenLabel>
-    <RadzenTextBox Placeholder="30" style="display: block" @bind-Value="@totalLoanTerm" Name="TotalLoanTermInputTxt">
-    </RadzenTextBox>
+    <RadzenNumeric Placeholder="30" @bind-Value="@totalLoanTerm" Name="TotalLoanTermInputTxt">
+    </RadzenNumeric>
     <RadzenButton style="display: block; margin-top: 10px" Text="Calculate" Click="@CalculateBtnClick">
     </RadzenButton>
     <RadzenLabel style="display: block; margin-top: 10px" Text="Your estimated payments ($)">

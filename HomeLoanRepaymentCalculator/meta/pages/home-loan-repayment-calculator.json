@@ -19,12 +19,10 @@
         },
         {
           "name": "loanAmountInputTxt",
-          "placeholder": "50000",
-          "style": {
-            "display": "block"
-          },
-          "type": "textbox",
-          "value": "${loanAmount}"
+          "placeholder": "500000",
+          "type": "numeric",
+          "value": "${loanAmount}",
+          "valueType": "string"
         },
         {
           "name": "interestRate",
@@ -37,11 +35,9 @@
         {
           "name": "interestRateInputTxt",
           "placeholder": "2.69",
-          "style": {
-            "display": "block"
-          },
-          "type": "textbox",
-          "value": "${interestRate}"
+          "type": "numeric",
+          "value": "${interestRate}",
+          "valueType": "string"
         },
         {
           "name": "totalLoanTerm",
@@ -54,11 +50,9 @@
         {
           "name": "totalLoanTermInputTxt",
           "placeholder": "30",
-          "style": {
-            "display": "block"
-          },
-          "type": "textbox",
-          "value": "${totalLoanTerm}"
+          "type": "numeric",
+          "value": "${totalLoanTerm}",
+          "valueType": "string"
         },
         {
           "events": {

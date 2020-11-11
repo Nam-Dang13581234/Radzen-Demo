@@ -28,7 +28,7 @@
           "Microsoft.Data.SqlClient": "1.1.0",
           "Microsoft.EntityFrameworkCore": "3.1.4",
           "Microsoft.EntityFrameworkCore.Design": "3.1.4",
-          "Radzen.Blazor": "2.15.21",
+          "Radzen.Blazor": "2.16.1",
           "System.ComponentModel.Annotations": "4.7.0",
           "Microsoft.AspNetCore.Antiforgery": "3.1.0.0",
           "Microsoft.AspNetCore.Authentication.Abstractions": "3.1.0.0",
@@ -821,7 +821,7 @@
           "lib/netstandard1.3/Newtonsoft.Json.dll": {}
         }
       },
-      "Radzen.Blazor/2.15.21": {
+      "Radzen.Blazor/2.16.1": {
         "dependencies": {
           "Microsoft.AspNetCore.Components": "3.1.0",
           "Microsoft.AspNetCore.Components.Web": "3.1.0",
@@ -830,8 +830,8 @@
         },
         "runtime": {
           "lib/netstandard2.1/Radzen.Blazor.dll": {
-            "assemblyVersion": "2.15.21.0",
-            "fileVersion": "2.15.21.0"
+            "assemblyVersion": "2.16.1.0",
+            "fileVersion": "2.16.1.0"
           }
         },
         "compile": {
@@ -3698,12 +3698,12 @@
       "path": "newtonsoft.json/10.0.1",
       "hashPath": "newtonsoft.json.10.0.1.nupkg.sha512"
     },
-    "Radzen.Blazor/2.15.21": {
+    "Radzen.Blazor/2.16.1": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-AYknprryPSDHnPHaD4IeMJKF0ida+qmapH6SBMxbimTNzd+yMGSDtz2KYEqtv/4ILgo+U4HIzloq7QTCTJIW+A==",
-      "path": "radzen.blazor/2.15.21",
-      "hashPath": "radzen.blazor.2.15.21.nupkg.sha512"
+      "sha512": "sha512-WGo5vodIYTKl0D2RQLXz8orMNszW4jVdcNasOitAKVKlFsxOokvSGaZiRqQm5hsHRygnR4qoh0Uc5OH3z3Q0uA==",
+      "path": "radzen.blazor/2.16.1",
+      "hashPath": "radzen.blazor.2.16.1.nupkg.sha512"
     },
     "runtime.debian.8-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {
       "type": "package",

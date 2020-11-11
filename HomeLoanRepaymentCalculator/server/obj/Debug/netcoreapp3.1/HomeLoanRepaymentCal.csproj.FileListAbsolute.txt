@@ -87,7 +87,6 @@ C:\Users\natha\Downloads\HomeLoanRepaymentCalculator\server\obj\Debug\netcoreapp
 C:\Users\natha\Downloads\HomeLoanRepaymentCalculator\server\obj\Debug\netcoreapp3.1\HomeLoanRepaymentCal.pdb
 C:\Users\natha\Downloads\HomeLoanRepaymentCalculator\server\obj\Debug\netcoreapp3.1\HomeLoanRepaymentCal.genruntimeconfig.cache
 C:\Users\natha\Downloads\Radzen-Demo\HomeLoanRepaymentCalculator\server\bin\Debug\netcoreapp3.1\appsettings.json
-C:\Users\natha\Downloads\Radzen-Demo\HomeLoanRepaymentCalculator\server\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
 C:\Users\natha\Downloads\Radzen-Demo\HomeLoanRepaymentCalculator\server\bin\Debug\netcoreapp3.1\HomeLoanRepaymentCal.StaticWebAssets.xml
 C:\Users\natha\Downloads\Radzen-Demo\HomeLoanRepaymentCalculator\server\bin\Debug\netcoreapp3.1\HomeLoanRepaymentCal.exe
 C:\Users\natha\Downloads\Radzen-Demo\HomeLoanRepaymentCalculator\server\bin\Debug\netcoreapp3.1\HomeLoanRepaymentCal.deps.json
@@ -174,3 +173,5 @@ C:\Users\natha\Downloads\Radzen-Demo\HomeLoanRepaymentCalculator\server\obj\Debu
 C:\Users\natha\Downloads\Radzen-Demo\HomeLoanRepaymentCalculator\server\obj\Debug\netcoreapp3.1\HomeLoanRepaymentCal.dll
 C:\Users\natha\Downloads\Radzen-Demo\HomeLoanRepaymentCalculator\server\obj\Debug\netcoreapp3.1\HomeLoanRepaymentCal.pdb
 C:\Users\natha\Downloads\Radzen-Demo\HomeLoanRepaymentCalculator\server\obj\Debug\netcoreapp3.1\HomeLoanRepaymentCal.genruntimeconfig.cache
+C:\Users\natha\Downloads\Radzen-Demo\HomeLoanRepaymentCalculator\server\obj\Debug\netcoreapp3.1\HomeLoanRepaymentCal.RazorComponent.output.cache
+C:\Users\natha\Downloads\Radzen-Demo\HomeLoanRepaymentCalculator\server\obj\Debug\netcoreapp3.1\scopedcss\bundle\HomeLoanRepaymentCal.styles.css

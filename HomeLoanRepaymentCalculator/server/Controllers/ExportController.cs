@@ -50,6 +50,11 @@ namespace HomeLoanRepaymentCal
                 {
                     items = items.Take(int.Parse(query["$top"].ToString()));
                 }
+
+                if (query.ContainsKey("$select"))
+                {
+                    return items.Select($"new ({query["$select"].ToString()})");
+                }
             }
 
             return items;

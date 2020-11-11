@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "7kqBSRSquWjs9qynzT3ZU5gr8sbEuNfR2zi4V8CvV5epi7ynGmcPYi+JKJYLO/9iEqROD/X7UDVu3W1UWcb8EA==",
+  "dgSpecHash": "fkvCPf1AK6BBC3hfissEz+6HH9lmu2rlM32vKTUlQFubY4tBAze3H5XCF/3L2fYoqS6s7kUrzmnWdxzTHTJnvQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\natha\\Downloads\\Radzen-Demo\\HomeLoanRepaymentCalculator\\server\\HomeLoanRepaymentCal.csproj",
   "expectedPackageFiles": [
@@ -44,7 +44,7 @@
     "C:\\Users\\natha\\.nuget\\packages\\microsoft.win32.registry\\4.5.0\\microsoft.win32.registry.4.5.0.nupkg.sha512",
     "C:\\Users\\natha\\.nuget\\packages\\netstandard.library\\1.6.1\\netstandard.library.1.6.1.nupkg.sha512",
     "C:\\Users\\natha\\.nuget\\packages\\newtonsoft.json\\10.0.1\\newtonsoft.json.10.0.1.nupkg.sha512",
-    "C:\\Users\\natha\\.nuget\\packages\\radzen.blazor\\2.15.21\\radzen.blazor.2.15.21.nupkg.sha512",
+    "C:\\Users\\natha\\.nuget\\packages\\radzen.blazor\\2.16.1\\radzen.blazor.2.16.1.nupkg.sha512",
     "C:\\Microsoft\\Xamarin\\NuGet\\runtime.debian.8-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.debian.8-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
     "C:\\Microsoft\\Xamarin\\NuGet\\runtime.fedora.23-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.fedora.23-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
     "C:\\Microsoft\\Xamarin\\NuGet\\runtime.fedora.24-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.fedora.24-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",

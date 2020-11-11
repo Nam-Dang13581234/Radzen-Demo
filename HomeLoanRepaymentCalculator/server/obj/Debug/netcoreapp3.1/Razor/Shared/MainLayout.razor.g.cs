@@ -68,15 +68,12 @@ using Radzen.Blazor;
             __builder.AddMarkupContent(7, "\n\n");
             __builder.OpenComponent<Radzen.Blazor.RadzenHeader>(8);
             __builder.AddAttribute(9, "ChildContent", (Microsoft.AspNetCore.Components.RenderFragment)((__builder2) => {
-                __builder2.AddMarkupContent(10, "\n    ");
-                __builder2.OpenElement(11, "div");
-                __builder2.AddAttribute(12, "class", "row justify-content-start align-items-center");
-                __builder2.AddMarkupContent(13, "\n      ");
-                __builder2.OpenElement(14, "div");
-                __builder2.AddAttribute(15, "class", "col-6 d-flex align-items-center");
-                __builder2.AddMarkupContent(16, "\n        ");
-                __builder2.OpenComponent<Radzen.Blazor.RadzenSidebarToggle>(17);
-                __builder2.AddAttribute(18, "Click", Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.TypeCheck<Microsoft.AspNetCore.Components.EventCallback<System.EventArgs>>(Microsoft.AspNetCore.Components.EventCallback.Factory.Create<System.EventArgs>(this, 
+                __builder2.OpenElement(10, "div");
+                __builder2.AddAttribute(11, "class", "row justify-content-start align-items-center");
+                __builder2.OpenElement(12, "div");
+                __builder2.AddAttribute(13, "class", "col-6 d-flex align-items-center");
+                __builder2.OpenComponent<Radzen.Blazor.RadzenSidebarToggle>(14);
+                __builder2.AddAttribute(15, "Click", Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.TypeCheck<Microsoft.AspNetCore.Components.EventCallback<System.EventArgs>>(Microsoft.AspNetCore.Components.EventCallback.Factory.Create<System.EventArgs>(this, 
 #line 14 "C:\Users\natha\Downloads\Radzen-Demo\HomeLoanRepaymentCalculator\server\Shared\MainLayout.razor"
                                      SidebarToggle0Click
 
@@ -84,42 +81,35 @@ using Radzen.Blazor;
 #line hidden
                 )));
                 __builder2.CloseComponent();
-                __builder2.AddMarkupContent(19, "\n        ");
-                __builder2.OpenComponent<Radzen.Blazor.RadzenLabel>(20);
-                __builder2.AddAttribute(21, "Text", "HomeLoanRepaymentCal");
+                __builder2.AddMarkupContent(16, "\n        ");
+                __builder2.OpenComponent<Radzen.Blazor.RadzenLabel>(17);
+                __builder2.AddAttribute(18, "Text", "HomeLoanRepaymentCal");
                 __builder2.CloseComponent();
-                __builder2.AddMarkupContent(22, "\n      ");
                 __builder2.CloseElement();
-                __builder2.AddMarkupContent(23, "\n      ");
-                __builder2.AddMarkupContent(24, "<div class=\"col-6 text-right\">\n      </div>\n    ");
+                __builder2.AddMarkupContent(19, "\n      <div class=\"col-6 text-right\"></div>");
                 __builder2.CloseElement();
-                __builder2.AddMarkupContent(25, "\n  ");
             }
             ));
             __builder.CloseComponent();
-            __builder.AddMarkupContent(26, "\n");
-            __builder.OpenComponent<Radzen.Blazor.RadzenBody>(27);
-            __builder.AddAttribute(28, "ChildContent", (Microsoft.AspNetCore.Components.RenderFragment)((__builder2) => {
-                __builder2.AddMarkupContent(29, "\n    ");
-                __builder2.OpenComponent<Radzen.Blazor.RadzenContentContainer>(30);
-                __builder2.AddAttribute(31, "Name", "main");
-                __builder2.AddAttribute(32, "ChildContent", (Microsoft.AspNetCore.Components.RenderFragment)((__builder3) => {
-                    __builder3.AddMarkupContent(33, "\n    ");
-                    __builder3.AddContent(34, 
+            __builder.AddMarkupContent(20, "\n");
+            __builder.OpenComponent<Radzen.Blazor.RadzenBody>(21);
+            __builder.AddAttribute(22, "ChildContent", (Microsoft.AspNetCore.Components.RenderFragment)((__builder2) => {
+                __builder2.OpenComponent<Radzen.Blazor.RadzenContentContainer>(23);
+                __builder2.AddAttribute(24, "Name", "main");
+                __builder2.AddAttribute(25, "ChildContent", (Microsoft.AspNetCore.Components.RenderFragment)((__builder3) => {
+                    __builder3.AddContent(26, 
 #line 27 "C:\Users\natha\Downloads\Radzen-Demo\HomeLoanRepaymentCalculator\server\Shared\MainLayout.razor"
      Body
 
 #line default
 #line hidden
                     );
-                    __builder3.AddMarkupContent(35, "\n    ");
                 }
                 ));
                 __builder2.CloseComponent();
-                __builder2.AddMarkupContent(36, "\n  ");
             }
             ));
-            __builder.AddComponentReferenceCapture(37, (__value) => {
+            __builder.AddComponentReferenceCapture(27, (__value) => {
 #line 24 "C:\Users\natha\Downloads\Radzen-Demo\HomeLoanRepaymentCalculator\server\Shared\MainLayout.razor"
                   body0 = (Radzen.Blazor.RadzenBody)__value;
 
@@ -128,26 +118,22 @@ using Radzen.Blazor;
             }
             );
             __builder.CloseComponent();
-            __builder.AddMarkupContent(38, "\n");
-            __builder.OpenComponent<Radzen.Blazor.RadzenSidebar>(39);
-            __builder.AddAttribute(40, "ChildContent", (Microsoft.AspNetCore.Components.RenderFragment)((__builder2) => {
-                __builder2.AddMarkupContent(41, "\n    ");
-                __builder2.OpenComponent<Radzen.Blazor.RadzenPanelMenu>(42);
-                __builder2.AddAttribute(43, "style", "height: 100%");
-                __builder2.AddAttribute(44, "ChildContent", (Microsoft.AspNetCore.Components.RenderFragment)((__builder3) => {
-                    __builder3.AddMarkupContent(45, "\n        ");
-                    __builder3.OpenComponent<Radzen.Blazor.RadzenPanelMenuItem>(46);
-                    __builder3.AddAttribute(47, "Text", "Home Loan Repayment Calculator");
-                    __builder3.AddAttribute(48, "Path", "home-loan-repayment-calculator");
+            __builder.AddMarkupContent(28, "\n");
+            __builder.OpenComponent<Radzen.Blazor.RadzenSidebar>(29);
+            __builder.AddAttribute(30, "ChildContent", (Microsoft.AspNetCore.Components.RenderFragment)((__builder2) => {
+                __builder2.OpenComponent<Radzen.Blazor.RadzenPanelMenu>(31);
+                __builder2.AddAttribute(32, "style", "height: 100%");
+                __builder2.AddAttribute(33, "ChildContent", (Microsoft.AspNetCore.Components.RenderFragment)((__builder3) => {
+                    __builder3.OpenComponent<Radzen.Blazor.RadzenPanelMenuItem>(34);
+                    __builder3.AddAttribute(35, "Text", "Home Loan Repayment Calculator");
+                    __builder3.AddAttribute(36, "Path", "home-loan-repayment-calculator");
                     __builder3.CloseComponent();
-                    __builder3.AddMarkupContent(49, "\n      ");
                 }
                 ));
                 __builder2.CloseComponent();
-                __builder2.AddMarkupContent(50, "\n  ");
             }
             ));
-            __builder.AddComponentReferenceCapture(51, (__value) => {
+            __builder.AddComponentReferenceCapture(37, (__value) => {
 #line 31 "C:\Users\natha\Downloads\Radzen-Demo\HomeLoanRepaymentCalculator\server\Shared\MainLayout.razor"
                      sidebar0 = (Radzen.Blazor.RadzenSidebar)__value;
 
@@ -156,14 +142,12 @@ using Radzen.Blazor;
             }
             );
             __builder.CloseComponent();
-            __builder.AddMarkupContent(52, "\n");
-            __builder.OpenComponent<Radzen.Blazor.RadzenFooter>(53);
-            __builder.AddAttribute(54, "ChildContent", (Microsoft.AspNetCore.Components.RenderFragment)((__builder2) => {
-                __builder2.AddMarkupContent(55, "\n    ");
-                __builder2.OpenComponent<Radzen.Blazor.RadzenLabel>(56);
-                __builder2.AddAttribute(57, "Text", "HomeLoanRepaymentCal, Copyright Ⓒ 2020");
+            __builder.AddMarkupContent(38, "\n");
+            __builder.OpenComponent<Radzen.Blazor.RadzenFooter>(39);
+            __builder.AddAttribute(40, "ChildContent", (Microsoft.AspNetCore.Components.RenderFragment)((__builder2) => {
+                __builder2.OpenComponent<Radzen.Blazor.RadzenLabel>(41);
+                __builder2.AddAttribute(42, "Text", "HomeLoanRepaymentCal, Copyright Ⓒ 2020");
                 __builder2.CloseComponent();
-                __builder2.AddMarkupContent(58, "\n  ");
             }
             ));
             __builder.CloseComponent();
